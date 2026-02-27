@@ -137,7 +137,7 @@ find <repo-root>/<skill-name> | sort
 
 ---
 
-## Step 6：提交变更
+## Step 6：提交并推送
 
 ```bash
 cd <repo-root>
@@ -155,9 +155,10 @@ git commit -m "feat: add <skill-name> skill"
 
 # 更新：
 git commit -m "feat: update <skill-name> skill"
-```
 
-**不要自动 push**，除非用户明确要求。
+# 推送到远端
+git push origin main
+```
 
 ---
 
@@ -170,8 +171,8 @@ git commit -m "feat: update <skill-name> skill"
 [ ] Step 3：确定目标位置（新增 or 更新）
 [ ] Step 4：复制文件并验证
 [ ] Step 5：更新 README.md
-[ ] Step 6：git commit（不 push）
-[ ] 向用户汇报完成情况，询问是否需要 push
+[ ] Step 6：git commit + git push origin main
+[ ] 向用户汇报推送结果
 ```
 
 ---
@@ -185,6 +186,7 @@ git commit -m "feat: update <skill-name> skill"
 → 目标：<repo-root>/learn-from-repo/
 → README 表格新增一行
 → commit: "feat: add learn-from-repo skill"
+→ push: git push origin main
 ```
 
 ### 场景 B：更新已有 skill
@@ -195,6 +197,7 @@ git commit -m "feat: update <skill-name> skill"
 → diff 对比变化，告知用户
 → 覆盖文件
 → commit: "feat: update learn-from-repo skill"
+→ push: git push origin main
 ```
 
 ### 场景 C：用户给出路径
