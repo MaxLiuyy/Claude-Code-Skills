@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skep"
+  short_description: "Repo-grounded feasibility and tradeoff review"
+  default_prompt: "Explore the current repository first, gather evidence from relevant files, then evaluate feasibility, expected effects, tradeoffs, and discussion decisions." 
