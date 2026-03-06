@@ -1,0 +1,4 @@
+interface:
+  display_name: "Capture Lessons"
+  short_description: "Summarize a session into a lessons note"
+  default_prompt: "Use $capture-lessons to summarize this session and save the key takeaways."
