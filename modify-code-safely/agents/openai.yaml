@@ -1,0 +1,7 @@
+interface:
+  display_name: "Modify Code Safely"
+  short_description: "Freeze contracts before safe code changes"
+  default_prompt: "Use $modify-code-safely to prepare this code change with contract, scope, and validation gates."
+
+policy:
+  allow_implicit_invocation: true

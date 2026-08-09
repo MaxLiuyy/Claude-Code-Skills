@@ -10,3 +10,4 @@
 | [learn-from-repo](./learn-from-repo/) | 深度理解研究型代码仓库的方法论，结合对话式学习逐组件拆解，支持 Paper-Code 双向对应。**前置条件**：需安装 [claude-paper](https://github.com/alaliqing/claude-paper/tree/main) |
 | [skep](./skep/) | 基于仓库证据驱动的方案审视与可行性评估，先探索代码再提出有依据的质疑与讨论。 |
 | [capture-lessons](./capture-lessons/) | Summarize a session into a durable lessons note and save it under the project's lessons directory. |
+| [modify-code-safely](./modify-code-safely/) | 在修改代码前冻结行为契约、变更范围与验证要求，通过只读预检和用户确认确保安全实施。 |
